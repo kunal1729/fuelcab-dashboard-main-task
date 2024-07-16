@@ -1,0 +1,25 @@
+.dropdown-content {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: calc(100% + 10px); /* Position the dropdown below the button */
+    left: 0;
+    z-index: 999; /* Ensure the dropdown appears above other content */
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    animation-delay: 3s;
+    transition-delay: 3s;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Add transition for opacity and transform */
+  }
+  
+  .dropdown-content.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0); /* Show dropdown by translating it into view */
+  }
+  .trans{
+    cursor: pointer;
+  }
+  
