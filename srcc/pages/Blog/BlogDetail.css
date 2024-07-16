@@ -1,0 +1,155 @@
+/* BlogDetail.css */
+
+.blog-description h2,
+.blog-description h3,
+.blog-description h4,
+.blog-description h5{
+  font-weight: bold;
+  text-align: justify;
+  font-size: 24px; /* Adjust font size as needed */
+  padding: 10px 0; /* Add padding as needed */
+}
+.blog-description h1 {
+  font-size: 32px; /* Adjust font size for h1 */
+  font-weight: bold; /* Set font weight for h1 */
+}
+
+.blog-description h6 {
+  font-size: 18px; /* Adjust font size for h6 */
+  font-style: bold; /* Add italic style to h6 */
+  font-weight: bold;
+}
+.blog-description p {
+  font-size: 18px; /* Adjust font size as needed */
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
+  margin-bottom: 20px; /* Add margin between paragraphs */
+}
+.hgh{
+  text-align: left;
+}
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6 {
+  font-weight: bold;
+  text-align: left;
+  font-size: 24px; /* Adjust font size as needed */
+  padding: 10px 0; /* Add padding as needed */
+}
+.sidebar p {
+  font-size: 18px; /* Adjust font size as needed */
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px; /* Add margin between paragraphs */
+}
+.blog-title-container {
+  flex: 0 0 30%;
+  text-align: center;
+  padding: 20px;
+}
+.sidebarinside {
+  position: sticky;
+  top: 87px;
+  margin-bottom: 50px;
+  z-index: 1; /* Ensure the sidebar is above other content */
+}
+.sidebar {
+  height: 100%;
+  margin-top: 100px;
+  /* position: fixed; */
+  text-align: left;
+  flex: 0 0 30%; /* Set sidebar width to 30% */
+  /* Set sidebar background color */
+  padding: 10px 0; /* Adjust the padding as needed */
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+
+
+
+.blog-title {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px 80px;
+}.sidebar h3 {
+  text-align: left;
+  padding: 10px 0; /* Adjust the padding as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.sidebar ul {
+  text-align: left;
+  padding: 0;
+}
+
+.sidebar li {
+  text-align: left;
+  padding: 5px 0; /* Adjust the padding as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+.blog-detail-page {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.blog-image-container {
+  width: 100%; /* Width set to 70% */
+  padding: 20px;
+}
+.custom-btn {
+  padding: 0; /* Reduce padding to 0 */
+  font-size: 1000px; /* Adjust font size as needed */
+}
+
+
+.blog-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+.btn{
+  padding: 0;
+  margin: 0;
+}
+
+.blog-container {
+  width: 100%;
+  display: flex;
+  
+}
+
+.blog-description-container {
+  width: 70%; /* Width set to 70% */
+  padding: 20px;
+  font-size: large;
+}
+
+.blog-sidebar-container {
+  width: 30%; /* Width set to 30% */
+  background-color: red; /* Red background color */
+}
+
+
+.blank-space {
+  flex: 0 0 30%;
+  background-color: red; /* Add your desired background color */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .blog-title-container,
+  .blog-image-container,
+  .blog-description-container,
+  .blog-sidebar-container {
+    width: 100%;
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
